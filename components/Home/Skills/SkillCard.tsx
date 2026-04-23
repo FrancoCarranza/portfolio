@@ -1,8 +1,7 @@
-import { LucideIcon } from "lucide-react";
 
 type Props = {
     name: string;
-    icon: LucideIcon;
+    icon: any;
 }
 
 export default function SkillCard({ name, icon: Icon }: Props) {

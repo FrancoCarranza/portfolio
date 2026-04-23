@@ -1,147 +1,95 @@
 import {
-    Briefcase,
-    Cloud,
+    CheckCircle2,
     Code2,
-    Coffee,
-    Cpu,
-    Database,
     GitBranch,
-    Globe,
     GraduationCap,
-    Layers,
-    Layout,
+    Languages,
     Mail,
     MapPin,
-    Palette,
     Phone,
-    Server,
-    Smartphone,
-    Terminal,
+    RotateCcw,
+    Zap,
 } from "lucide-react";
 
 import { FaGithub, FaLinkedin, FaLinkedinIn, FaTwitter } from "react-icons/fa6";
+import { SiAppsignal, SiHtml5, SiJavascript, SiMysql, SiNextdotjs, SiNodedotjs, SiPostman, SiReact, SiTailwindcss, SiTypescript, SiVercel } from "react-icons/si";
 
 export const stats = [
-    { label: "Years Experience", value: "5+" },
-    { label: "Projects Completed", value: "50+" },
-    { label: "Happy Clients", value: "30+" },
-    { label: "Students Taught", value: "1000+" },
+    { label: "Year of Engineering", value: "4th" },
+    { label: "English Level", value: "B2" },
+    { label: "Tech Courses", value: "10+" },
+    { label: "Commitment", value: "100%" },
 ];
 
 export const highlights = [
-    { icon: MapPin, text: "Based in San Francisco, CA" },
-    { icon: Briefcase, text: "Open for freelance work" },
-    { icon: GraduationCap, text: "CS Graduate from Stanford" },
-    { icon: Coffee, text: "Powered by coffee & curiosity" },
-];
-
-export const userReviewData = [
-    {
-        id: 1,
-        name: "John Doe",
-        profession: "Real Estate Agent",
-        userImage: "/images/u1.jpg",
-        review:
-            "A wonderful experience! The platform made it easy to find exactly what I needed. lorem ipsum dolor sit ame",
-    },
-    {
-        id: 2,
-        name: "Mike Smith",
-        profession: "Business Owner",
-        userImage: "/images/u2.jpg",
-        review:
-            "Great selection of properties and seamless process. Highly recommended for anyone looking to invest.",
-    },
-    {
-        id: 3,
-        name: "Alex Johnson",
-        profession: "Web developer",
-        userImage: "/images/u3.jpg",
-        review:
-            "The website helped me find my dream home quickly and hassle-free. Exceptional service!",
-    },
-    {
-        id: 4,
-        name: "Emily Clark",
-        profession: "Interior Designer",
-        userImage: "/images/u4.jpg",
-        review:
-            "Fantastic range of properties with clear details. The best platform for home and design inspiration!",
-    },
+    { icon: GraduationCap, text: "4th Year Software Engineering" },
+    { icon: Languages, text: "English B2 (FCE Certified)" },
+    { icon: Code2, text: "React & Next.js Specialist" },
+    { icon: Zap, text: "Fast Learner & Solution Oriented" },
 ];
 
 export const contactInfo = [
     {
         icon: Mail,
         label: "Email",
-        value: "hello@johndoe.dev",
-        href: "mailto:hello@johndoe.dev",
+        value: "francocarranza144@gmail.com",
+        href: "mailto:francocarranza144gmail.com",
     },
     {
         icon: Phone,
         label: "Phone",
-        value: "+1 (555) 123-4567",
-        href: "tel:+15551234567",
+        value: "+54 (351) 6959527",
+        href: "tel:+543516959527",
     },
     {
         icon: MapPin,
         label: "Location",
-        value: "San Francisco, CA",
+        value: "Córdoba, Argentina",
         href: "#",
     },
 ];
 
 export const socialLinks = [
-    { icon: FaGithub, href: "https://github.com", label: "GitHub" },
-    { icon: FaLinkedinIn, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: FaTwitter, href: "https://twitter.com", label: "Twitter" },
+    { icon: FaGithub, href: "https://github.com/FrancoCarranza", label: "GitHub" },
+    { icon: FaLinkedinIn, href: "https://www.linkedin.com/in/franco-carranza-852524313/", label: "LinkedIn" },
 ];
 
 export const experiences = [
     {
         type: "work",
-        title: "Senior Full-Stack Developer",
-        company: "TechCorp Inc.",
+        title: "Freelance Web Developer",
+        company: "Modo Chatbot (Project)",
+        period: "2025",
+        description:
+            "Designed and developed a responsive web interface for an AI services startup. Managed the end-to-end process from UI prototyping to deployment.",
+        technologies: ["React", "CSS3", "Netlify", "Client Relations"],
+    },
+    {
+        type: "education",
+        title: "Software Engineering Degree",
+        company: "Universidad Siglo 21",
+        period: "2023 - Present",
+        description:
+            "Currently in 4th year (Advanced Student). Focused on Software Quality, Distributed Systems, and Agile Methodologies in Córdoba, Argentina.",
+        technologies: ["Software Architecture", "QA", "Agile"],
+    },
+    {
+        type: "education",
+        title: "First Certificate in English (FCE)",
+        company: "Cambridge University",
+        period: "2023",
+        description:
+            "B2 Upper Intermediate certification. Proficient in technical communication and documentation in English.",
+        technologies: ["B2 Level", "Technical English"],
+    },
+    {
+        type: "education",
+        title: "Programming Foundations",
+        company: "Initial Courses",
         period: "2022 - Present",
         description:
-            "Leading development of enterprise SaaS products. Mentoring junior developers and implementing best practices.",
-        technologies: ["React", "Node.js", "AWS", "TypeScript"],
-    },
-    {
-        type: "work",
-        title: "Full-Stack Developer",
-        company: "StartupXYZ",
-        period: "2020 - 2022",
-        description:
-            "Built and maintained multiple web applications. Collaborated with design team to implement responsive UIs.",
-        technologies: ["Vue.js", "Python", "PostgreSQL", "Docker"],
-    },
-    {
-        type: "education",
-        title: "Master of Computer Science",
-        company: "Stanford University",
-        period: "2018 - 2020",
-        description:
-            "Specialized in distributed systems and machine learning. Thesis on scalable microservices architecture.",
-        technologies: ["Research", "AI/ML", "Distributed Systems"],
-    },
-    {
-        type: "work",
-        title: "Junior Developer",
-        company: "WebAgency Co.",
-        period: "2018 - 2020",
-        description:
-            "Developed client websites and e-commerce platforms. Gained experience in agile methodologies.",
-        technologies: ["JavaScript", "PHP", "MySQL", "WordPress"],
-    },
-    {
-        type: "education",
-        title: "Bachelor of Computer Science",
-        company: "UC Berkeley",
-        period: "2014 - 2018",
-        description:
-            "Strong foundation in algorithms, data structures, and software engineering principles.",
-        technologies: ["Computer Science", "Mathematics", "Problem Solving"],
+            "Self-paced learning of programming logic, algorithms, and web development fundamentals.",
+        technologies: ["React", "Next.js", "JavaScript", "HTML/CSS", "SQL"],
     },
 ];
 
@@ -154,93 +102,53 @@ export const footerSocialLinks = [
 
 export const projects = [
     {
-        title: "E-Commerce Platform",
+        title: "Modo Chatbot Interface",
         description:
-            "A full-stack e-commerce solution with real-time inventory, payment processing, and admin dashboard.",
-        image: "/images/p1.jpg",
-        techStack: ["Next.js", "TypeScript", "Stripe", "MongoDB"],
-        demoUrl: "https://example.com",
-        githubUrl: "https://github.com",
+            "Freelance landing page for an AI service provider. Developed with a focus on responsive UI and custom brand integration.",
+        image: "/images/web-chatBot.png",
+        techStack: ["React", "JavaScript", "CSS3", "Netlify"],
+        demoUrl: "https://chat-bot-25.netlify.app/",
+        githubUrl: "https://github.com/FrancoCarranza/Modo-Chatbot-WebSite",
     },
     {
-        title: "Task Management App",
+        title: "Engineering Portfolio",
         description:
-            "Collaborative project management tool with real-time updates, Kanban boards, and team analytics.",
-        image: "/images/p2.jpg",
-        techStack: ["React", "Node.js", "Socket.io", "PostgreSQL"],
-        demoUrl: "https://example.com",
-        githubUrl: "https://github.com",
-    },
-    {
-        title: "AI Content Generator",
-        description:
-            "GPT-powered content creation platform for marketers with templates and workflow automation.",
-        image: "/images/p3.jpg",
-        techStack: ["React", "Python", "OpenAI", "FastAPI"],
-        demoUrl: "https://example.com",
-        githubUrl: "https://github.com",
-    },
-    {
-        title: "Real Estate Platform",
-        description:
-            "Property listing platform with virtual tours, mortgage calculator, and agent booking system.",
-        image: "/images/p4.jpg",
-        techStack: ["Vue.js", "Node.js", "MongoDB", "Maps API"],
-        demoUrl: "https://example.com",
-        githubUrl: "https://github.com",
-    },
-    {
-        title: "Fitness Tracker",
-        description:
-            "Cross-platform mobile app for workout tracking, nutrition logging, and progress analytics.",
-        image: "/images/p5.jpg",
-        techStack: ["React Native", "Firebase", "Node.js", "Charts"],
-        demoUrl: "https://example.com",
-        githubUrl: "https://github.com",
-    },
-    {
-        title: "Learning Management System",
-        description:
-            "Educational platform with video streaming, quizzes, progress tracking, and certificates.",
-        image: "/images/p6.jpg",
-        techStack: ["Next.js", "Prisma", "AWS S3", "Stripe"],
-        demoUrl: "https://example.com",
-        githubUrl: "https://github.com",
-    },
+            "Personal engineering portfolio built to showcase technical skills and projects. Focused on performance and modern UI/UX.",
+        image: "/images/imagen.png",
+        techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+        demoUrl: "https://tu-portfolio.vercel.app",
+        githubUrl: "https://github.com/FrancoCarranza/nombre-de-este-repo",
+    }
 ];
 
 export const skillCategories = [
     {
         title: "Frontend",
         skills: [
-            { name: "React", icon: Code2 },
-            { name: "Next.js", icon: Globe },
-            { name: "TypeScript", icon: Terminal },
-            { name: "Tailwind CSS", icon: Palette },
-            { name: "React Native", icon: Smartphone },
-            { name: "Vue.js", icon: Layout },
+            { name: "React", icon: SiReact },
+            { name: "Next.js", icon: SiNextdotjs },
+            { name: "TypeScript", icon: SiTypescript },
+            { name: "Tailwind CSS", icon: SiTailwindcss },
+            { name: "Java Script", icon: SiJavascript },
+            { name: "HTML/CSS", icon: SiHtml5 },
         ],
     },
     {
         title: "Backend",
         skills: [
-            { name: "Node.js", icon: Server },
-            { name: "Express", icon: Layers },
-            { name: "MongoDB", icon: Database },
-            { name: "PostgreSQL", icon: Database },
-            { name: "GraphQL", icon: Cpu },
-            { name: "REST APIs", icon: Cloud },
+            { name: "MySQL", icon: SiMysql },
+            { name: "Node.js", icon: SiNodedotjs },
+            { name: "Postman", icon: SiPostman },
+            { name: "Next.js API Routes", icon: SiAppsignal },
         ],
     },
     {
         title: "Tools & Others",
         skills: [
             { name: "Git", icon: GitBranch },
-            { name: "Docker", icon: Server },
-            { name: "AWS", icon: Cloud },
-            { name: "Linux", icon: Terminal },
-            { name: "Figma", icon: Palette },
-            { name: "CI/CD", icon: Cpu },
+            { name: "Vercel", icon: SiVercel },
+            { name: "Agile/Scrum", icon: RotateCcw },
+            { name: "Software Quality", icon: CheckCircle2 },
         ],
     },
 ];

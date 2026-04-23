@@ -32,7 +32,7 @@ export default function ProjectCard({ description, image, techStack, title, demo
                 group-hover:text-blue-500 transition-colors">
                     {title}
                 </h3>
-                <p className="text-muted-foregorund text-sm mb-4 line-clamp-2">
+                <p className="text-muted-foregorund text-sm mb-4 line-clamp-3">
                     {description}
                 </p>
 

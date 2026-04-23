@@ -1,6 +1,6 @@
 'use client';
 import { Button } from "@/components/ui/button";
-import { Download, FolderOpen } from "lucide-react";
+import { Download, Send } from "lucide-react";
 import { TypeAnimation } from "react-type-animation";
 
 export default function Hero() {
@@ -22,9 +22,9 @@ export default function Hero() {
                 <h1
                     data-aos="fade-up"
                     data-aos-delay="100"
-                    className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
-                    Hi, I'm
-                    <span className="text-purple-800 dark:text-yellow-300"> Franco Carranza</span>
+                    className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                    Franco Carranza
+                    <span className="text-purple-800 dark:text-yellow-300"> Software Engineer</span>
                 </h1>
 
                 {/* Type effect */}
@@ -35,11 +35,11 @@ export default function Hero() {
                 mb-4 sm:mb-8 h-12">
                     <TypeAnimation
                         sequence={[
-                            "MERN Stack Developer",
+                            "Full Stack Developer",
                             2000,
-                            "Tech Instructor",
+                            "React & Next.js Developer",
                             2000,
-                            "Open Source Contributor",
+                            "Software Engineer",
                             2000
                         ]}
                         wrapper='span'
@@ -55,8 +55,7 @@ export default function Hero() {
                     data-aos-delay="300"
                     className="text-lg text-muted-foreground dark:text-gray-200 max-w-2xl mx-auto mb-10"
                 >
-                    Crafting exceptional digital experiences with modern technologies.
-                    Passionate about building scalable apps and teaching others.
+                    Software Engineering student focused on building robust and scalable web applications. Passionate about Frontend development with React & Next.js, and committed to high-quality code standards.
                 </p>
 
                 {/* Buttons */}
@@ -66,9 +65,9 @@ export default function Hero() {
                     className="flex flex-col sm:flex-row gap-4 justify-center"
                 >
                     <Button size={'lg'} asChild className="w-fit mx-auto sm:mx-0" >
-                        <a href="#">
-                            <FolderOpen className="w-5 h-5 mr-2" />
-                            View Projects
+                        <a href="#contact">
+                            <Send className="w-5 h-5 mr-2" />
+                            Contact Me
                         </a>
                     </Button>
 

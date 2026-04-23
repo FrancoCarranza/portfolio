@@ -17,7 +17,7 @@ export default function About() {
                     data-aos-anchor-placement="top-center"
                     className="relative">
                     <div className="aspect-square rounded-2xl overflow-hidden p-2">
-                        <Image src={'/images/user.jpg'} alt={'profile'}
+                        <Image src={'/images/codigo.png'} alt={'profile'}
                             width={700}
                             height={700}
                             className="object-cover w-full h-full rounded-xl" />
@@ -34,10 +34,10 @@ export default function About() {
                         A passionate developer who loves to create
                     </h3>
                     <p className="text-muted-foreground leading-relaxed">
-                        I'm a full-stack developer with 5+ years of experience in building web applications. I specialize in React, Node.js, and cloud technologies. My goal is to create seamless and intuitive user experiences through clean and efficient code.
+                        I am a Software Engineering student at Universidad Siglo 21 with a strong focus on building efficient and maintainable applications. My journey in technology started with logic and databases, evolving into a specialized interest in Frontend development using React, Next.js, and Tailwind CSS.
                     </p>
                     <p className="text-muted-foreground leading-relaxed">
-                        I'm passionate about learning new technologies and continuously improving my skills. I enjoy solving complex problems and building innovative solutions that make a difference.
+                        Being in the 4th year of my degree has provided me with a deep understanding of software quality, agile methodologies, and system architecture. I combine this academic background with a certified B2 English level, ready to contribute to global teams and high-impact projects.
                     </p>
                     {/* Highlights */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">

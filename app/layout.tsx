@@ -4,7 +4,7 @@ import "./globals.css";
 import Provider from "@/components/Hoc/Provider";
 import ResponsiveNav from "@/components/Home/NavBar/ResponsiveNav";
 import Footer from "@/components/Home/Footer/Footer";
-import ScrollToTop from "@/components/Helper/ScrollToTop";
+import WhatsApp from "@/components/Helper/WhatsApp";
 
 const font = Inter({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
@@ -14,6 +14,9 @@ const font = Inter({
 export const metadata: Metadata = {
   title: "Franco Carranza",
   description: "Portfolio de Franco Carranza con NextJs",
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
@@ -31,7 +34,7 @@ export default function RootLayout({
           <ResponsiveNav />
           {children}
           <Footer />
-          <ScrollToTop />
+          <WhatsApp />
         </Provider>
       </body>
     </html>

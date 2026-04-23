@@ -7,7 +7,7 @@ export default function Footer() {
         dark:border-gray-700 py-12">
             <div className="w-[80%] mx-auto">
                 <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-                    <a href="#home" className="text-xl font-bold text-indigo-700">
+                    <a href="#hero" className="text-xl font-bold text-indigo-700">
                         {"<Dev/>"}
                     </a>
                     <div className="flex items-center gap-4">
