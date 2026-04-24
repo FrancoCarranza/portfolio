@@ -11,7 +11,7 @@ import {
     Zap,
 } from "lucide-react";
 
-import { FaGithub, FaLinkedin, FaLinkedinIn, FaTwitter } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaLinkedinIn } from "react-icons/fa6";
 import { SiHtml5, SiJavascript, SiMysql, SiNextdotjs, SiNodedotjs, SiPostman, SiReact, SiTailwindcss, SiTypescript, SiVercel } from "react-icons/si";
 
 export const stats = [
