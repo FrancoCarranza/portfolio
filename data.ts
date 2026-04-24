@@ -115,8 +115,8 @@ export const projects = [
             "Personal engineering portfolio built to showcase technical skills and projects. Focused on performance and modern UI/UX.",
         image: "/images/imagen.png",
         techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
-        demoUrl: "https://tu-portfolio.vercel.app",
-        githubUrl: "https://github.com/FrancoCarranza/nombre-de-este-repo",
+        demoUrl: "francocarranza.vercel.app",
+        githubUrl: "https://github.com/FrancoCarranza/portfolio",
     }
 ];
 
