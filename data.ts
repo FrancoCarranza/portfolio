@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 
 import { FaGithub, FaLinkedin, FaLinkedinIn, FaTwitter } from "react-icons/fa6";
-import { SiAppsignal, SiHtml5, SiJavascript, SiMysql, SiNextdotjs, SiNodedotjs, SiPostman, SiReact, SiTailwindcss, SiTypescript, SiVercel } from "react-icons/si";
+import { SiHtml5, SiJavascript, SiMysql, SiNextdotjs, SiNodedotjs, SiPostman, SiReact, SiTailwindcss, SiTypescript, SiVercel } from "react-icons/si";
 
 export const stats = [
     { label: "Year of Engineering", value: "4th" },
@@ -33,7 +33,7 @@ export const contactInfo = [
         icon: Mail,
         label: "Email",
         value: "francocarranza144@gmail.com",
-        href: "mailto:francocarranza144gmail.com",
+        href: "mailto:francocarranza144@gmail.com",
     },
     {
         icon: Phone,
@@ -94,10 +94,9 @@ export const experiences = [
 ];
 
 export const footerSocialLinks = [
-    { icon: FaGithub, href: "https://github.com", label: "GitHub" },
-    { icon: FaLinkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: FaTwitter, href: "https://twitter.com", label: "Twitter" },
-    { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+    { icon: FaGithub, href: "https://github.com/FrancoCarranza", label: "GitHub" },
+    { icon: FaLinkedin, href: "https://www.linkedin.com/in/franco-carranza-852524313/", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:francocarranza144@gmail.com", label: "Email" },
 ];
 
 export const projects = [
@@ -129,7 +128,7 @@ export const skillCategories = [
             { name: "Next.js", icon: SiNextdotjs },
             { name: "TypeScript", icon: SiTypescript },
             { name: "Tailwind CSS", icon: SiTailwindcss },
-            { name: "Java Script", icon: SiJavascript },
+            { name: "JavaScript", icon: SiJavascript },
             { name: "HTML/CSS", icon: SiHtml5 },
         ],
     },
@@ -139,7 +138,7 @@ export const skillCategories = [
             { name: "MySQL", icon: SiMysql },
             { name: "Node.js", icon: SiNodedotjs },
             { name: "Postman", icon: SiPostman },
-            { name: "Next.js API Routes", icon: SiAppsignal },
+            { name: "Next.js API Routes", icon: Code2 },
         ],
     },
     {
