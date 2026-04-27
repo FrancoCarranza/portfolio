@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 
 export default function Provider({ children }: { children: ReactNode }) {
     return (
-        <ThemeProvider attribute={'class'} enableSystem defaultTheme="system" >
+        <ThemeProvider attribute={'class'} enableSystem={false} defaultTheme="light" >
             {children}
         </ThemeProvider>
     );
