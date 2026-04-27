@@ -23,8 +23,8 @@ export default function Hero() {
                     data-aos="fade-up"
                     data-aos-delay="100"
                     className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                    Franco Carranza
-                    <span className="text-purple-800 dark:text-yellow-300"> Software Engineer</span>
+                    <span translate="no">Franco Carranza</span>
+                    <span className="text-purple-800 dark:text-yellow-300" translate="no"> Software Engineer</span>
                 </h1>
 
                 {/* Type effect */}
@@ -32,7 +32,7 @@ export default function Hero() {
                     data-aos="fade-up"
                     data-aos-delay="200"
                     className="text-xl sm:text-2xl md:text-3xl text-black dark:text-white font-semibold
-                mb-4 sm:mb-8 h-12">
+                mb-4 sm:mb-8 h-12" translate="no">
                     <TypeAnimation
                         sequence={[
                             "Full Stack Developer",
@@ -72,8 +72,8 @@ export default function Hero() {
                     </Button>
 
                     <Button size={'lg'} asChild className="w-fit mx-auto sm:mx-0" >
-                        <a 
-                            href="/CV-Carranza_Franco.pdf" 
+                        <a
+                            href="/CV-Carranza_Franco.pdf"
                             download="CV-Carranza_Franco.pdf"
                             className="cursor-pointer"
                         >

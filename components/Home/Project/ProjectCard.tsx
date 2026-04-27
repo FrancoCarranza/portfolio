@@ -32,7 +32,7 @@ export default function ProjectCard({ description, image, techStack, title, demo
                 group-hover:text-blue-500 transition-colors">
                     {title}
                 </h3>
-                <p className="text-muted-foregorund text-sm mb-4 line-clamp-3">
+                <p className="text-muted-foreground text-sm mb-4" translate="no">
                     {description}
                 </p>
 
@@ -41,7 +41,7 @@ export default function ProjectCard({ description, image, techStack, title, demo
                     {techStack.map((tech) => {
                         return <span key={tech}
                             className="text-xs px-3 py-1 rounded-full bg-indigo-600
-                            text-white font-medium">
+                            text-white font-medium" translate="no">
                             {tech}
                         </span>
                     })}

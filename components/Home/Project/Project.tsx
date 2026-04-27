@@ -10,7 +10,7 @@ export default function Project() {
                 title_2={"Projects"}
                 description={"A selection of my recent work and side projects"}
             />
-            <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6 w-[60%] mx-auto">
+            <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-6 w-[80%] sm:w-[70%] lg:w-[60%] mx-auto">
                 {projects.map((project, index) => {
                     return <div
                         data-aos="fade-up"

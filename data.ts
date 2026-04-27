@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 
 import { FaGithub, FaLinkedin, FaLinkedinIn } from "react-icons/fa6";
-import { SiHtml5, SiJavascript, SiMysql, SiNextdotjs, SiNodedotjs, SiPostman, SiReact, SiTailwindcss, SiTypescript, SiVercel } from "react-icons/si";
+import { SiHtml5, SiJavascript, SiMysql, SiNextdotjs, SiPostman, SiReact, SiTailwindcss, SiTypescript, SiVercel } from "react-icons/si";
 
 export const stats = [
     { label: "Year of Engineering", value: "4th" },
@@ -24,7 +24,7 @@ export const stats = [
 export const highlights = [
     { icon: GraduationCap, text: "4th Year Software Engineering" },
     { icon: Languages, text: "English B2 (FCE Certified)" },
-    { icon: Code2, text: "React & Next.js Specialist" },
+    { icon: Code2, text: "React & Next.js Developer" },
     { icon: Zap, text: "Fast Learner & Solution Oriented" },
 ];
 
@@ -136,7 +136,6 @@ export const skillCategories = [
         title: "Backend",
         skills: [
             { name: "MySQL", icon: SiMysql },
-            { name: "Node.js", icon: SiNodedotjs },
             { name: "Postman", icon: SiPostman },
             { name: "Next.js API Routes", icon: Code2 },
         ],

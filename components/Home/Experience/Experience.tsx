@@ -38,12 +38,12 @@ export default function Experience() {
                                 <div className="flex items-center gap-2 text-sm text-blue-500 mb-2">
                                     <span className="px-3 py-1 rounded-full bg-blue-600/10 font-medium">{item.period}</span>
                                 </div>
-                                <h3 className="text-xl font-semibold mb-1">{item.title}</h3>
-                                <p className="text-muted-foreground text-sm mb-3">{item.company}</p>
+                                <h3 className="text-xl font-semibold mb-1" translate="no">{item.title}</h3>
+                                <p className="text-muted-foreground text-sm mb-3" translate="no">{item.company}</p>
                                 <p className="text-muted-foreground text-sm mb-4">{item.description}</p>
                                 <div className="flex flex-wrap gap-2">
                                     {item.technologies.map((tech) => (
-                                        <span key={tech} className="text-xs px-2 py-1 rounded-md bg-indigo-500 text-white">{tech}</span>
+                                        <span key={tech} translate="no" className="text-xs px-2 py-1 rounded-md bg-indigo-500 text-white">{tech}</span>
                                     ))}
                                 </div>
                             </div>

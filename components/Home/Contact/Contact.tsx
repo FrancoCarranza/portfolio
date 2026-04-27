@@ -72,7 +72,7 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <p className="text-sm text-muted-foreground">{item.label}</p>
-                                        <p className="font-medium">{item.value}</p>
+                                        <p className="font-medium" translate="no">{item.value}</p>
                                     </div>
                                 </a>
                             })}

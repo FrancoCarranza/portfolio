@@ -46,7 +46,7 @@ export default function About() {
                                 <div className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center">
                                     <item.icon className="w-4 h-4 text-blue-500" />
                                 </div>
-                                <span className="text-muted-foreground">{item.text}</span>
+                                <span className="text-muted-foreground" translate="no">{item.text}</span>
                             </div>
                         })}
                     </div>
@@ -62,10 +62,10 @@ export default function About() {
                                 data-aos-anchor-placement="top-center"
                                 key={stat.label}
                                 className="bg-white dark:bg-gray-800 shadow rounded-xl p-6 text-center">
-                                <div className="text-3xl md:text-4xl font-bold text-purple-600 mb-2">
+                                <div translate="no" className="text-3xl md:text-4xl font-bold text-purple-600 mb-2">
                                     {stat.value}
                                 </div>
-                                <div className="text-sm text-muted-foreground">
+                                <div translate="no" className="text-sm text-muted-foreground">
                                     {stat.label}
                                 </div>
                             </div>

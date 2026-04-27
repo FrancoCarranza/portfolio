@@ -7,7 +7,7 @@ export default function Footer() {
         dark:border-gray-700 py-12">
             <div className="w-[80%] mx-auto">
                 <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-                    <a href="#hero" className="text-xl font-bold text-indigo-700">
+                    <a translate="no" href="#hero" className="text-xl font-bold text-indigo-700">
                         {"<Dev/>"}
                     </a>
                     <div className="flex items-center gap-4">
@@ -21,7 +21,7 @@ export default function Footer() {
                         })}
                     </div>
                     <p className="text-sm text-muted-foreground flex items-center gap-1">
-                        Made with {' '} <Heart className="w-4 h-4 text-destructive fill-destructive" /> by Franco Carranza
+                        Made with {' '} <Heart className="w-4 h-4 text-destructive fill-destructive" /> by <span translate="no">Franco Carranza</span>
                     </p>
                 </div>
                 <div className="mt-8 pt-8 border-t border-gray-300 dark:border-gray-800 text-center">

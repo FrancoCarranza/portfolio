@@ -13,7 +13,7 @@ export default function SkillCard({ name, icon: Icon }: Props) {
             transition-all duration-300">
                 <Icon className="w-6 h-6 text-white" />
             </div>
-            <span className="text-sm font-medium text-foreground">{name}</span>
+            <span className="text-sm font-medium text-foreground" translate="no">{name}</span>
         </div>
     );
 }
