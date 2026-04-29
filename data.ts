@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 
 import { FaGithub, FaLinkedin, FaLinkedinIn } from "react-icons/fa6";
-import { SiHtml5, SiJavascript, SiMysql, SiNextdotjs, SiPostman, SiReact, SiTailwindcss, SiTypescript, SiVercel } from "react-icons/si";
+import { SiFirebase, SiHtml5, SiJavascript, SiMysql, SiNextdotjs, SiPostman, SiReact, SiTailwindcss, SiTypescript, SiVercel } from "react-icons/si";
 
 export const stats = [
     { label: "Year of Engineering", value: "4th" },
@@ -117,6 +117,15 @@ export const projects = [
         techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
         demoUrl: "https://francocarranza.vercel.app/",
         githubUrl: "https://github.com/FrancoCarranza/portfolio",
+    },
+    {
+        title: "React E-Commerce Lab",
+        description:
+            "Academic project focused on complex state management and Firebase integration. Features real-time database synchronization and dynamic inventory control.",
+        image: "/images/react-project.png",
+        techStack: ["React", "Firebase", "Context API", "Netlify"],
+        demoUrl: "https://react-store-25.netlify.app/",
+        githubUrl: "https://github.com/FrancoCarranza/ReactStore-Project-React",
     }
 ];
 
@@ -136,7 +145,7 @@ export const skillCategories = [
         title: "Backend",
         skills: [
             { name: "MySQL", icon: SiMysql },
-            { name: "Postman", icon: SiPostman },
+            { name: "Firebase (NoSQL)", icon: SiFirebase },
             { name: "Next.js API Routes", icon: Code2 },
         ],
     },
@@ -147,6 +156,7 @@ export const skillCategories = [
             { name: "Vercel", icon: SiVercel },
             { name: "Agile/Scrum", icon: RotateCcw },
             { name: "Software Quality", icon: CheckCircle2 },
+            { name: "Postman", icon: SiPostman },
         ],
     },
 ];
