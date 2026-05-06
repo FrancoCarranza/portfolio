@@ -58,7 +58,7 @@ export const experiences = [
     {
         type: "work",
         title: "Software Developer",
-        company: "AgentsApp",
+        company: "Agentsapp",
         period: "2026 - Present",
         description:
             "Developing and maintaining scalable web applications for an AI-driven startup. Focused on building high-performance interfaces and integrating intelligent agent services.",
