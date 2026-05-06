@@ -57,6 +57,15 @@ export const socialLinks = [
 export const experiences = [
     {
         type: "work",
+        title: "Software Developer",
+        company: "AgentsApp",
+        period: "2026 - Present",
+        description:
+            "Developing and maintaining scalable web applications for an AI-driven startup. Focused on building high-performance interfaces and integrating intelligent agent services.",
+        technologies: ["Next.js", "TypeScript", "Tailwind CSS", "React", "AI Integration"],
+    },
+    {
+        type: "work",
         title: "Freelance Web Developer",
         company: "Modo Chatbot (Project)",
         period: "2025",
